@@ -1,0 +1,15 @@
+#endButton {
+  background-color: #e74c3c;
+}
+
+#endButton:hover {
+  background-color: #c51000;
+}
+
+#cancleButton {
+  background-color: #00b5c5;
+}
+
+#cancleButton:hover {
+  background-color: #00d5ff;
+}

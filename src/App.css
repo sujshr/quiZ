@@ -1,0 +1,26 @@
+#container {
+  position: fixed;
+  top: 7.5vh;
+  height: 85vh;
+  width: 90vw;
+  max-width: 1000px;
+  left: 50%;
+  box-shadow: 0 0 10px rgba(79, 79, 79, 0.443);
+  border-radius: 15px;
+  transform: translateX(-50%);
+  backdrop-filter: blur(2px);
+  background-color: #8eaf9aac;
+}
+
+#container::before,
+#container::after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  top: -10px;
+  left: -10px;
+  box-shadow: 0 0 8px rgba(79, 79, 79, 0.269);
+  border-radius: 15px;
+  pointer-events: none;
+}

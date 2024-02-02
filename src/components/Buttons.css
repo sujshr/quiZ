@@ -1,0 +1,41 @@
+#buttonDiv {
+  display: flex;
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: translateX(-1px) translateY(-1px);
+  box-shadow: 3px 3px 10px rgba(79, 79, 79, 0.282);
+}
+#previous {
+  background-color: #3498db;
+}
+
+#next {
+  background-color: #2ecc71;
+}
+
+#quit {
+  background-color: #e47600;
+}
+
+#previous:hover {
+  background-color: #20a4fd;
+}
+
+#next:hover {
+  background-color: #00ca54;
+}
+
+#quit:hover {
+  background-color: #c56300;
+}
